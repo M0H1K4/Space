@@ -1,15 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Logo from "../../../assets/shared/logo.svg";
-import HamBurger from "../../../assets/shared/icon-hamburger.svg";
 import "./Mobile.css";
+import NavBar from "../../Components/Mobile/NavBar"
 
 export default function mobileHome() {
   return (
     <div className="mainMobile">
       <div className="mobileHeader">
-        <img className="logo" src={Logo} alt="logo" />
-        <img src={HamBurger} alt="logo" />
+        <NavBar />
       </div>
       <div className="txts">
         <h4 className="mobileH4">SO, YOU WANT TO TRAVEL TO</h4>
