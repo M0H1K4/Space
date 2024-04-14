@@ -5,9 +5,7 @@ import NavBar from "../../Components/Mobile/NavBar"
 export default function mobileHome() {
   return (
     <div className="mainMobile">
-      <div className="mobileHeader">
-        <NavBar />
-      </div>
+      <NavBar/>
       <div className="txts">
         <h4 className="mobileH4">SO, YOU WANT TO TRAVEL TO</h4>
         <h1 className="mobileH1">SPACE</h1>
