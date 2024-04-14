@@ -40,7 +40,7 @@ export default function NavBar() {
         </li>
         <li className="navbar-item">
           <Link to="/about" className="navbar-link">
-            03 TTECHNOLOGY
+            03 TECHNOLOGY
           </Link>
         </li>
       </ul>
