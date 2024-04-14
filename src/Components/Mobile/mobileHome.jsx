@@ -21,7 +21,9 @@ export default function mobileHome() {
           experience!
         </h3>
       </div>
-      <button className="mobileHomeButton">EXPLORE</button>
+      <div className="homeButtonDiv">
+        <button className="mobileHomeButton">EXPLORE</button>
+      </div>
     </div>
   );
 }

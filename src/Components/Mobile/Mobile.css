@@ -52,8 +52,12 @@
   height: 150px;
   flex-shrink: 0;
   border-radius: 100px;
-  margin-left: 110px;
   fill: #fff;
   border: none;
   cursor: pointer;
+}
+.homeButtonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
