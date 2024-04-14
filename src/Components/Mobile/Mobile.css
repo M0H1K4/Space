@@ -1,0 +1,59 @@
+.mainMobile {
+  width: 100vw; /* Fill the entire viewport width */
+  height: 100vh; /* Fill the entire viewport height */
+  background-image: url("../../../assets/home/background-home-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire visible area of the div */
+  background-position: center;
+  overflow: hidden;
+}
+.mobileHeader {
+  display: flex;
+  justify-content: space-around;
+  gap: 280px;
+  margin-top: 20px;
+}
+.logo {
+  height: 21px;
+  width: 24px;
+}
+.txts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: #d0d6f9;
+}
+.mobileH1 {
+  color: #fff;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 125% */
+  margin-top: 0px;
+}
+.mobileH3 {
+  color: #d0d6f9;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  padding: 20px;
+  margin-top: -40px;
+}
+
+.mobileHomeButton {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  margin-left: 110px;
+  fill: #fff;
+  border: none;
+  cursor: pointer;
+}
