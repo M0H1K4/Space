@@ -114,10 +114,6 @@
 }
 
 .navbar-menu.active {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  
   opacity: 1;
   pointer-events: auto; 
   width: 254px;
@@ -127,21 +123,30 @@
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.774227142333984px);
   border: none;
-  
-  margin-top: -70px;
+  margin-top: -80px;
 
 }
 
 .navbar-item {
-  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.liDiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 
-
 .navbar-link {
-  color: #fff; /* Adjust link color */
+  color: #FFF;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.7px;
   text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s ease;
+ 
 }
 
 .navbar-link:hover {

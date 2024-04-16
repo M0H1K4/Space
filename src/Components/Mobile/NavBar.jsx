@@ -23,6 +23,8 @@ export default function NavBar() {
         />
       </div>
       <ul className={`navbar-menu ${isActive ? "active" : ""}`}>
+        <div className="liDiv">
+
         <li className="navbar-item">
           <Link to="/" className="navbar-link">
             00 HOME
@@ -43,6 +45,7 @@ export default function NavBar() {
             03 TECHNOLOGY
           </Link>
         </li>
+        </div>
       </ul>
     </nav>
   );
