@@ -117,24 +117,28 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
   opacity: 1;
   pointer-events: auto; 
+  width: 254px;
   height: 667px;
-  width: 300px;
-  margin-left: 80px;
+  flex-shrink: 0;
+  margin-left: 130px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.774227142333984px);
   border: none;
-  color: white;
+  
   margin-top: -70px;
+
 }
 
 .navbar-item {
   margin-bottom: 10px;
 }
 
+
 .navbar-link {
-  color: #0b0d17; /* Adjust link color */
+  color: #fff; /* Adjust link color */
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
