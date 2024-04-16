@@ -22,31 +22,28 @@ export default function NavBar() {
           onClick={toggleMenu}
         />
       </div>
-      <ul className={`navbar-menu ${isActive ? "active" : ""}`}>
-        <div className="liDiv">
-
-        <li className="navbar-item">
+      <div className={`navbar-menu ${isActive ? "active" : ""}`}>
+        <h1 className="navbar-item">
           <Link to="/" className="navbar-link">
             00 HOME
           </Link>
-        </li>
-        <li className="navbar-item">
+        </h1>
+        <h1 className="navbar-item">
           <Link to="/about" className="navbar-link">
             01 DESTINATION
           </Link>
-        </li>
-        <li className="navbar-item">
+        </h1>
+        <h1 className="navbar-item">
           <Link to="/about" className="navbar-link">
             02 CREW
           </Link>
-        </li>
-        <li className="navbar-item">
+        </h1>
+        <h1 className="navbar-item">
           <Link to="/about" className="navbar-link">
             03 TECHNOLOGY
           </Link>
-        </li>
+        </h1>
         </div>
-      </ul>
     </nav>
   );
 }
